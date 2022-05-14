@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a43818eb3fbd2454885822dfc22a2e7c, type: 3}
+  m_Name: MusRoom
+  m_EditorClassIdentifier: 
+  itemType: 0
+  itemName: "\u7EA2\u8611\u83C7"
+  itemIcon: {fileID: 21300000, guid: cdd86f910ef9d9f46aafae9dd7756428, type: 3}
+  itemAmount: 1
+  description: "\u5728\u8FD9\u91CC\u4ED6\u4EEC\u53EB\u8FD9\u4E2A\u661F\u677E\uFF0C\u636E\u8BF4\u80FD\u591F\u6CBB\u6108\u4F24\u53E3"
+  stackable: 1
+  useableData: {fileID: 11400000, guid: 7cc172f38cc51ff48ab418e4de4c1f03, type: 2}
+  weaponPrefab: {fileID: 0}
+  weaponData: {fileID: 0}
+  weaponAnimtor: {fileID: 0}

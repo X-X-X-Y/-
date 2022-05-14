@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9795c500ff7da143b5e04f8f0da361c, type: 3}
+  m_Name: PanSen Start
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: pan1
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u670B\u53CB\uFF01\u51C6\u5907\u597D\u6218\u6597\u4E86\u5417\uFF01\uFF01\uFF1F"
+    quest: {fileID: 0}
+    options:
+    - text: "\u554A\uFF0C\u4F60\u597D"
+      targetID: pan2
+      takeQuest: 0
+    canExpand: 1
+  - ID: pan2
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u6211\u7684\u670B\u53CB\u554A\uFF01\u4E0D\u8981\u8BF4\u8BDD"
+    quest: {fileID: 0}
+    options: []
+    canExpand: 1
+  - ID: pan3
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u6211\u770B\u4F60\u5DF2\u7ECF\u5145\u6EE1\u6597\u5FD7\u4E86\uFF01"
+    quest: {fileID: 0}
+    options: []
+    canExpand: 1
+  - ID: pan4
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u51C6\u5907\u597D\u63A5\u53D7\u6211\u7684\u8003\u9A8C\u4E86\u5417\uFF1F"
+    quest: {fileID: 0}
+    options:
+    - text: "\u6211\u60F3\u95EE\u4E9B\u4E8B\u513F"
+      targetID: pan5
+      takeQuest: 0
+    canExpand: 1
+  - ID: pan5
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u54E6\uFF0C\u6211\u7684\u670B\u53CB\uFF0C\u63A5\u53D7\u6211\u7684\u8BD5\u70BC\u5427"
+    quest: {fileID: 0}
+    options:
+    - text: "\u5176\u5B9E\u6211\u60F3\u4E86\u89E3\u8FD9\u513F"
+      targetID: pan6
+      takeQuest: 0
+    canExpand: 1
+  - ID: pan6
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u54C8\u54C8\u54C8\u54C8\u54C8\u54C8\uFF0C\u5B8C\u6210\u6211\u7684\u8BD5\u70BC\uFF0C\u6211\u4F1A\u544A\u8BC9\u4F60\u4E00\u5207"
+    quest: {fileID: 0}
+    options: []
+    canExpand: 1
+  - ID: pan7
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u6211\u4EEC\u73B0\u5728\u53EA\u6709\u4E00\u4E2A\u5171\u540C\u7684\u654C\u4EBA"
+    quest: {fileID: 0}
+    options: []
+    canExpand: 1
+  - ID: pan8
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u5B83\u62D2\u7EDD\u6211\u8FDB\u5165\u6211\u7684\u57CE\u5821\uFF01\uFF01\uFF01"
+    quest: {fileID: 0}
+    options:
+    - text: "\u4F60\u7684\u57CE\u5821\uFF1F"
+      targetID: pan9
+      takeQuest: 0
+    canExpand: 1
+  - ID: pan9
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u662F\u7684\uFF01\u6211\u7684\u57CE\u5821\uFF0C\u554A\uFF01\uFF01\uFF01\uFF01\uFF01\u8BE5\u6B7B"
+    quest: {fileID: 0}
+    options: []
+    canExpand: 1
+  - ID: pan10
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u6211\u53EA\u8BB0\u5F97\u90A3\u662F\u6211\u8BE5\u5B88\u62A4\u7684\u4E1C\u897F\uFF01\uFF01\uFF01"
+    quest: {fileID: 0}
+    options: []
+    canExpand: 1
+  - ID: pan11
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u4F46\u662F\u6211\u5374\u88AB\u90A3\u4E2A\u9B3C\u4E1C\u897F\u62D2\u4E4B\u95E8\u5916\uFF01"
+    quest: {fileID: 0}
+    options:
+    - text: "\u4F60\u5728\u5B88\u62A4\u4EC0\u4E48\uFF1F"
+      targetID: pan12
+      takeQuest: 0
+    canExpand: 1
+  - ID: pan12
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u6211\u4E0D\u77E5\u9053\uFF01\u6211\u7684\u6F5C\u610F\u8BC6\uFF01"
+    quest: {fileID: 0}
+    options: []
+    canExpand: 1
+  - ID: pan13
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u6F5C\u610F\u8BC6\u6F5C\u610F\u8BC6\uFF01\uFF01\uFF01\u5C31\u662F\u5B88\u62A4\u90A3\u4E2A"
+    quest: {fileID: 0}
+    options:
+    - text: "\u8FD8\u8BB0\u5F97\u5176\u4ED6\u4E8B\u5417\uFF1F"
+      targetID: pan14
+      takeQuest: 0
+    canExpand: 1
+  - ID: pan14
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u5F53\u7136\u8BB0\u5F97\uFF01\u6211\u8981\u8BD5\u70BC\u6211\u78B0\u89C1\u7684\u4EBA"
+    quest: {fileID: 0}
+    options: []
+    canExpand: 1
+  - ID: pan15
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u8BD5\u70BC\u6211\u7684\u901A\u8FC7\u7684\u4EBA\u8FD8\u8981\u5F97\u5230\u8FD9\u628A\u5927\u5251\u7684\u8BA4\u53EF\uFF01"
+    quest: {fileID: 0}
+    options:
+    - text: "\u5927\u5251\uFF1F"
+      targetID: pan16
+      takeQuest: 0
+    canExpand: 1
+  - ID: pan16
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u662F\u7684\uFF0C\u8FD9\u628A\u5927\u5251\uFF01\u6CA1\u6709\u901A\u8FC7\u5927\u5251\u8BD5\u70BC\u7684\u4EBA"
+    quest: {fileID: 0}
+    options: []
+    canExpand: 1
+  - ID: pan17
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u5927\u5251\u7684\u5200\u5203\u6C38\u8FDC\u662F\u9ED1\u8272\u7684"
+    quest: {fileID: 0}
+    options: []
+    canExpand: 1
+  - ID: pan18
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u6240\u4EE5\u6765\u63A5\u53D7\u8BD5\u70BC\u5427\uFF01\u770B\u770B\u4F60\u6709\u6CA1\u6709\u80FD\u529B\u5F97\u5230\u8BA4\u53EF\uFF01"
+    quest: {fileID: 0}
+    options:
+    - text: "\u90A3\u6211\u8BD5\u8BD5\u5427\uFF01"
+      targetID: pan19
+      takeQuest: 0
+    canExpand: 1
+  - ID: pan19
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u5F88\u597D\uFF01\u51FA\u53D1\u5427\u6211\u7684\u670B\u53CB"
+    quest: {fileID: 0}
+    options: []
+    canExpand: 1
+  - ID: pan20
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u90A3\u4E9B\u70E6\u4EBA\u7684\u53F2\u83B1\u59C6\u548C\u5C0F\u4E4C\u9F9F\u770B\u5230\u4E86\u5427\uFF01"
+    quest: {fileID: 0}
+    options:
+    - text: "\u662F\u8FDC\u5904\u90A3\u4E9B\u4F1A\u52A8\u7684\u5417\uFF1F"
+      targetID: pan21
+      takeQuest: 0
+    canExpand: 1
+  - ID: pan21
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u6CA1\u9519\uFF0C\u8BA9\u6211\u5F00\u5F00\u773C\u5427\uFF01"
+    quest: {fileID: 11400000, guid: 3430648cb00d8b147a433db3cf01fc6b, type: 2}
+    options:
+    - text: "\u5C0F\u83DC\u4E00\u789F"
+      targetID: pan22
+      takeQuest: 1
+    canExpand: 1
+  - ID: pan22
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u679C\u7136\u662F\u52C7\u6562\u7684\u9A91\u58EB\uFF01"
+    quest: {fileID: 0}
+    options: []
+    canExpand: 1

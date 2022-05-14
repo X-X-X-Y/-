@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9795c500ff7da143b5e04f8f0da361c, type: 3}
+  m_Name: PanSen Progress
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: panF1
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u6211\u7684\u670B\u53CB\u600E\u4E48\u4E86\uFF1F"
+    quest: {fileID: 0}
+    options:
+    - text: "\u8BD5\u70BC\u7684\u5185\u5BB9\uFF1F"
+      targetID: panF2
+      takeQuest: 0
+    - text: "\u6709\u4EC0\u4E48\u9700\u8981\u6CE8\u610F\u7684\u5417\uFF1F"
+      targetID: panF4
+      takeQuest: 0
+    canExpand: 1
+  - ID: panF2
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u53EA\u9700\u5440\u6D88\u706D3\u4E2A\u53F2\u83B1\u59C6\u548C\u5C0F\u4E4C\u9F9F"
+    quest: {fileID: 0}
+    options:
+    - text: "\u5C0F\u4E4C\u9F9F\u3001\u3001\u3001"
+      targetID: panF3
+      takeQuest: 0
+    canExpand: 1
+  - ID: panF3
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u54C8\u54C8\u54C8\u54C8\u54C8\uFF0C\u8FD9\u624D\u662F\u8BD5\u70BC\u561B"
+    quest: {fileID: 0}
+    options: []
+    canExpand: 1
+  - ID: panF4
+    image: {fileID: 21300000, guid: 52072fc616f84664eb5512f086ea546e, type: 3}
+    text: "\u6CE8\u610F\u4F60\u7684\u4F24\u52BF\uFF01\u661F\u677E\u80FD\u591F\u6CBB\u6108\u4F60\u7684\u4F24\u53E3\uFF01"
+    quest: {fileID: 0}
+    options:
+    - text: "\u597D\u7684"
+      targetID: 
+      takeQuest: 0
+    canExpand: 1

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a43818eb3fbd2454885822dfc22a2e7c, type: 3}
+  m_Name: BSword
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: "\u7206\u6740\u4E00\u5207"
+  itemIcon: {fileID: 21300000, guid: f67cde9482f8b3149a1b573382a648be, type: 3}
+  itemAmount: 1
+  description: "\u65E0\u654C\u7206\u6740\u6D41\u5927\u5251\uFF0C\u80FD\u591F\u780D\u7206\u4E00\u5207\u70E6\u4EBA\u7684\u4E1C\u897F\uFF0C\u51B2\u51B2\u51B2\uFF0C\u5C31\u780D\u5C31\u780D\u5C31\u780D\uFF0C\u8FD8\u8981\u518D\u780D"
+  stackable: 0
+  useableData: {fileID: 0}
+  weaponPrefab: {fileID: 913776162039915032, guid: 9a7be8abc28afb14388d7ed769dc2e70, type: 3}
+  weaponData: {fileID: 11400000, guid: ceb7e798f1c44784bb69a399631c1f22, type: 2}
+  weaponAnimtor: {fileID: 22100000, guid: 1012511af02412b4aad3817ea2834bb8, type: 2}
